@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>개인정보입력입니다!</title>
+</head>
+<body>
+	Home > Join the Membership
+	<fieldset style = "width:300px">
+		<legend>개인 정보 입력</legend><p>
+	</fieldset>
+</body>
+</html>

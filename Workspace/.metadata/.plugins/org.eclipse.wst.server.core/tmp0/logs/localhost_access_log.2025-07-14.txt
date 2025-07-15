@@ -1,0 +1,5 @@
+127.0.0.1 - - [14/Jul/2025:15:47:15 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [14/Jul/2025:15:47:17 +0900] "GET /JSPStudy/ch06/db3_insert_into_product_form.jsp HTTP/1.1" 500 2911
+0:0:0:0:0:0:0:1 - - [14/Jul/2025:15:47:17 +0900] "GET /favicon.ico HTTP/1.1" 404 819
+0:0:0:0:0:0:0:1 - - [14/Jul/2025:15:47:31 +0900] "GET /JSPStudy/ch06/db1_select_product.jsp HTTP/1.1" 200 1656
+0:0:0:0:0:0:0:1 - - [14/Jul/2025:15:47:31 +0900] "GET /favicon.ico HTTP/1.1" 404 819

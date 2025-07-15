@@ -1,0 +1,52 @@
+<%@ page import = "java.sql.*"  %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%!
+ 	Connection connection = null;
+ 	Statement statement = null;
+ 	ResultSet resultSet = null;
+ 	
+ 	final String URL = "jdbc:oracle:thin:@192.168.0.2:1521:XE";
+ 	final String ID = "c##park";
+ 	final String PASSWORD = "park";
+ 	final String SELECT_SQL = "SELECT * FROM PRODUCT";
+ %>
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		request.setCharacterEncoding("UTF-8");
+		final Integer PRODUCT_ID = Integer.valueOf(request.getParameter("product_id"));
+		final String PRODUCT_NAME = request.getParameter("product_name");
+		final String MANUFACTURER = request.getParameter("manufacturer");
+		final Integer PRICE = Integer.valueOf(request.getParameter("PRICE"));
+		
+		
+		try {
+	 		Class.forName("oracle.jdbc.driver.OracleDriver");
+	 		connection = DriverManager.getConnection(URL, ID, PASSWORD);
+	 		preparedStatement = connection.prepareStatement(INSERT_SQL);
+	 		preparedStatement.setInt(1, PRODUCT_ID);
+	 		preparedStatement.setString(2, PRODUCT_NAME);
+	 		preparedStatement.setString(3, MANUFACTURER);
+	 		preparedStatement.setInt(4, PRICE);
+	 		preparedStatement.executeUpdate();
+		} catch (Exception e) {
+			out.println("Exception DB");
+			e.printStackTrace();
+		} finally {
+			try {
+				if (preparedStatement != null) preparedStatement.close();
+				if (connection != null) connection.close();
+			} catch (Exception e) {
+				out.println("Exception close");
+			}
+	%>
+	<h1>PRODUCT 테이블에 데이터 입력 성공</h1>
+	 <a href = "db1_select_product.jsp">product 테이블 보기</a>
+</body>
+</html>

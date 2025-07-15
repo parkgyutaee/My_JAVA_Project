@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 삽입 입니다.</title>
+</head>
+<body>
+	<hr/>
+		<img  src="image/table_clock.jpg"  width="200"  >
+		<img  src="image/table_clock.jpg"  width="200"  border = "2" >
+	<hr/>
+</body>
+</html>

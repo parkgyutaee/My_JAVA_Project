@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>기본 테이블 생성입니다</title>
+</head>
+<body>
+	<h3> 2행 2열의 기본 테이블</h3>
+	<table border = "3">
+		<tr>
+			<th>아이디</th><th>비밀번호</th>
+		</tr>
+		<tr>
+			<th>spacezone</th><th>#123@456</th>
+		</tr>
+	</table>
+	
+</body>
+</html>

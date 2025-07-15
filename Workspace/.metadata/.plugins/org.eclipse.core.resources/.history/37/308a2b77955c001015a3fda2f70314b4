@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>연습문제2 입니다</title>
+</head>
+<body>
+	
+<table border = "3"  width="75%" >
+  <tr bgcolor="pink">
+    <th>학번</th><th>성명</th><th>학과</th><th>국적</th>
+  </tr>
+ <tr>
+    <td>203512345</td> <td>신영웅</td><td>데이터사이언스학과</td><td>미국</td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

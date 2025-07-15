@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>세션 로그인 폼 만들기</title>
+<script type="text/javascript">
+	function check_func() {
+			var f = document.loginForm;
+			var id = f.id.value;
+			var regExpName = /^[a-zA-Z가-힣ㄱ-ㅎㅏ-ㅣ]/;
+			
+			if (!regExpName.test(name)) {
+				alert("닉네임은 숫자로 시작할 수 없습니다.");
+				f.name.focus();
+				return false;
+			}
+	}
+</script>
+
+</head>
+<body>
+	Home > 로그인 폼 화면
+	<hr>
+	<form action="sessionCreate_success.jsp" name = "loginForm" method = "post"
+	onsubmit="return check_func()">
+		아이디 : <br>
+		<input type = "text" name = "id"> <br><br>
+		비밀번호 <br>
+		<input type = "password" name = "pw"> <br><br>
+		<input type = "submit" value = "로그인하기">
+	</form>
+</body>
+</html>

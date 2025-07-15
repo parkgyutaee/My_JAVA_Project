@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>하이퍼링크에 이미지 삽입하기</title>
+</head>
+<body>
+<h1>오늘의 날씨 살펴보기</h1>
+<a href="https://www.weather.go.kr/w/index.do" target ="_blank">
+	<img  src="image/kma.jpg" width = "200"  border="2" >
+</a>
+</body>
+</html>

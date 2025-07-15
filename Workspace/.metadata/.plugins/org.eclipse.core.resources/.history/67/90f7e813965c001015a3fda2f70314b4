@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>연습문제3 입니다</title>
+</head>
+<body>
+<table border = "3"  width="75%"  align="center">
+  <tr bgcolor="#CCFFAA" rowspan="2">
+    <th>수강 신청 과목</th><th>신청학과</th><th></th><th>신청 인원</th>
+  </tr>
+ <tr>
+	<td>데이터베이스</td><td>소프트웨어학과</td><td>123</td>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

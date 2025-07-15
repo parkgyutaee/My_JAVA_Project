@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>개인정보입력입니다!</title>
+</head>
+<body>
+	Home > Join the Membership
+	<fieldset style = "width:330px">
+		<legend>개인 정보 입력</legend>
+		아이디: <br>
+		<input type = "text" name = "id"> <br><br>
+		비밀번호: <br>
+		<input type = "text" name = "password"> <br><br>
+		이름: <br>
+		<input type = "text" name = "name"> <br><br>
+		
+		연락처: <br>
+		<select name = "choise" style = "width:60px;height:20.5px">
+			<option value = "skt">SKT</option>
+			<option value = "kt">KT</option>
+			<option value = "lg">LG</option>			
+		</select> &nbsp;
+		<input type="text" name="p1"> - <input type="text" name="p2"> - <input type="text" name="p3"> 
+	</fieldset>
+</body>
+</html>

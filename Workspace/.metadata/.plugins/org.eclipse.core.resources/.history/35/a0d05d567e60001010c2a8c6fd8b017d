@@ -1,0 +1,66 @@
+<%@ page import="java.sql.*" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%!
+	Connection connection = null;
+	PreparedStatement preparedStatement = null;
+
+	final String URL = "jdbc:oracle:thin:@192.168.0.2:1521:XE";
+	final String ID = "c##park";
+	final String PASSWORD = "park";
+
+	final String INSERT_SQL = 
+		    "INSERT INTO PRODUCT(productId, productName, manufacturer, expirationDate, isAdultOnly, price, quantity) " +
+		    "VALUES (?, ?, ?, TO_DATE(?, 'YYYY-MM-DD'), ?, ?, ?)";
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PRODUCT 테이블 데이터 입력</title>
+</head>
+<body>
+<%
+	request.setCharacterEncoding("UTF-8");
+
+	// 폼에서 넘어온 값 받기
+	final int PRODUCT_ID = Integer.parseInt(request.getParameter("product_id"));
+	final String PRODUCT_NAME = request.getParameter("product_name");
+	final String MANUFACTURER = request.getParameter("manufacturer");
+	final String EXPIRATION_DATE = request.getParameter("expiration_date"); 
+	final String IS_ADULT_ONLY = request.getParameter("is_adult_only");     // 'Y' or 'N'
+	final int PRICE = Integer.parseInt(request.getParameter("price"));
+	final int QUANTITY = Integer.parseInt(request.getParameter("quantity"));
+
+	try {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		connection = DriverManager.getConnection(URL, ID, PASSWORD);
+
+		preparedStatement = connection.prepareStatement(INSERT_SQL);
+		preparedStatement.setInt(1, PRODUCT_ID);
+		preparedStatement.setString(2, PRODUCT_NAME);
+		preparedStatement.setString(3, MANUFACTURER);
+		preparedStatement.setString(4, EXPIRATION_DATE);
+		preparedStatement.setString(5, IS_ADULT_ONLY);
+		preparedStatement.setInt(6, PRICE);
+		preparedStatement.setInt(7, QUANTITY);
+
+		preparedStatement.executeUpdate();
+%>
+	<h2> PRODUCT 테이블에 데이터 입력 성공</h2>
+	<a href="db1_select_product.jsp"> product 테이블 보기</a>
+<%
+	} catch (Exception e) {
+		out.println("<p style='color:red;'> DB 오류: " + e.getMessage() + "</p>");
+		e.printStackTrace();
+	} finally {
+		try {
+			if (preparedStatement != null) preparedStatement.close();
+			if (connection != null) connection.close();
+		} catch (Exception e) {
+			out.println("<p> DB 연결 해제 중 오류 발생</p>");
+		}
+	}
+%>
+</body>
+</html>

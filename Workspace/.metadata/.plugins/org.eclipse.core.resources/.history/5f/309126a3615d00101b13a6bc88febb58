@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>4장 연습문제 6번</title>
+</head>
+<body>
+	<form action="#" method = "get">
+		<fieldset style = "width:300px">
+			<legend>영화 평점</legend>
+			재미있게 본 영화: <br>
+			<input type = "text" name = "name"> <br><br>
+			평점: <br>
+			<hr> <br>
+			<input type = "radio" name = "choice" value = "★★★★★"> ★★★★★ <br>
+			<input type = "radio" name = "choice" value = "★★★★☆"> ★★★★☆ <br>
+			<input type = "radio" name = "choice" value = "★★★☆☆"> ★★★☆☆ <br>
+			<input type = "radio" name = "choice" value = "★★☆☆☆"> ★★☆☆☆ <br>
+			<input type = "radio" name = "choice" value = "★☆☆☆☆"> ★☆☆☆☆ <br>
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+	<h1>안녕하세요!!</h1>
+	<h2>저는 박규태 입니다.</h2>
+	<img  src="C:\Users\user\Desktop\20250627_박규태_프로젝트 폴더\20250709_JSP/table_clock.jpg">
+</body>
+
+</html>

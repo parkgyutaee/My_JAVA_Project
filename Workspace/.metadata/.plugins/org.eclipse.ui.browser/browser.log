@@ -1,0 +1,78 @@
+
+7월 10, 2025 09:52:51.93 NEW SESSION
+7월 10, 2025 09:52:51.94 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 10, 2025 09:52:51.94 I0000 00:00:1752108771.932065   13728 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 10, 2025 09:52:52.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 10, 2025 09:52:52.83 [12104:13392:0710/095252.835:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 09:53:19.49 [12104:13392:0710/095319.495:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 09:54:17.14 [12104:13392:0710/095417.147:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 09:55:40.51 [12104:13392:0710/095540.517:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 09:58:39.76 [12104:13392:0710/095839.768:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:05:07.81 [12104:13392:0710/100507.813:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:11:00.72 [12104:5528:0710/101100.726:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 10, 2025 10:11:14.74 [12104:5528:0710/101114.741:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+
+7월 10, 2025 10:25:47.18 NEW SESSION
+7월 10, 2025 10:25:47.19 [6452:4876:0710/102547.180:ERROR:base\metrics\persistent_memory_allocator.cc:892] Corruption detected in shared-memory segment.
+7월 10, 2025 10:25:47.28 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 10, 2025 10:25:47.28 I0000 00:00:1752110747.285906   11548 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 10, 2025 10:25:47.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 10, 2025 10:25:48.14 [6452:10484:0710/102548.142:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:40:36.01 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 10, 2025 10:40:36.01 I0000 00:00:1752111636.015155    2032 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 10, 2025 10:40:36.06 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 10, 2025 10:40:36.65 [10748:4012:0710/104036.658:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:41:04.78 [10748:4012:0710/104104.783:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:41:52.65 [10748:4012:0710/104152.655:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:43:50.93 [10748:4012:0710/104350.935:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:47:41.16 [10748:4012:0710/104741.164:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 10:55:38.29 [10748:4012:0710/105538.289:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:19:15.31 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 10, 2025 13:19:15.31 I0000 00:00:1752121155.315969   11644 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 10, 2025 13:19:15.53 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 10, 2025 13:19:16.12 [7244:268:0710/131916.126:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:30:01.60 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 10, 2025 13:30:01.60 I0000 00:00:1752121801.602072    9104 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 10, 2025 13:30:01.65 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 10, 2025 13:30:02.25 [8200:8820:0710/133002.252:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:30:28.64 [8200:8820:0710/133028.643:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:31:24.62 [8200:8820:0710/133124.620:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:33:03.99 [8200:8820:0710/133303.997:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:37:03.76 [8200:8820:0710/133703.767:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 13:42:29.78 [8200:8820:0710/134229.779:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 14:16:36.23 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 10, 2025 14:16:36.23 I0000 00:00:1752124596.233572    3572 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 10, 2025 14:16:36.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 10, 2025 14:16:36.93 [4196:9608:0710/141636.932:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 14:17:05.54 [4196:9608:0710/141705.540:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 14:18:04.71 [4196:9608:0710/141804.713:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 14:19:29.51 [4196:9608:0710/141929.513:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 14:23:15.61 [4196:9608:0710/142315.616:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 10, 2025 14:29:30.69 [4196:9608:0710/142930.696:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+7월 11, 2025 09:20:24.39 NEW SESSION
+7월 11, 2025 09:20:24.39 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 11, 2025 09:20:24.40 I0000 00:00:1752193224.390517    6520 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 11, 2025 09:20:24.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 11, 2025 09:20:25.11 [12236:6424:0711/092025.112:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 11, 2025 09:20:49.55 [12236:6424:0711/092049.558:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 11, 2025 09:21:49.44 [12236:6424:0711/092149.444:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 11, 2025 09:23:35.81 [12236:6424:0711/092335.817:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 11, 2025 09:26:19.08 [12236:6424:0711/092619.080:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 11, 2025 09:33:03.55 [12236:6424:0711/093303.552:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 11, 2025 09:35:45.16 [12236:1412:0711/093545.169:ERROR:CONSOLE:0] "[Report Only] Refused to frame 'https://ogs.google.com/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self'".
+7월 11, 2025 09:35:45.16 ", source:  (0)
+7월 11, 2025 09:35:45.17 [12236:1412:0711/093545.169:ERROR:CONSOLE:0] "[Report Only] Refused to frame 'https://ogs.google.com/' because an ancestor violates the following Content Security Policy directive: "frame-ancestors 'self'".
+7월 11, 2025 09:35:45.17 ", source:  (0)
+7월 11, 2025 10:23:12.51 [12236:1412:0711/102312.512:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 11, 2025 10:23:54.74 [12236:1412:0711/102354.744:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:732] Message 1 rejected by interface blink.mojom.WidgetHost
+
+7월 14, 2025 15:47:18.93 NEW SESSION
+7월 14, 2025 15:47:18.94 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 14, 2025 15:47:18.94 I0000 00:00:1752475638.929590    8316 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 14, 2025 15:47:19.01 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 14, 2025 15:47:19.59 [16048:7988:0714/154719.590:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+7월 14, 2025 15:47:32.60 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+7월 14, 2025 15:47:32.60 I0000 00:00:1752475652.607734   12216 voice_transcription.cc:58] Registering VoiceTranscriptionCapability
+7월 14, 2025 15:47:32.66 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 14, 2025 15:47:33.24 [14716:11008:0714/154733.245:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT

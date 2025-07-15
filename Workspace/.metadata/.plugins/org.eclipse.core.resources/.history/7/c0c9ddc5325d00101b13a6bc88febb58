@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>콤보 박스 select 작성하기</title>
+</head>
+<body>
+	Home > Language
+	<hr>
+	<form action="#" method = "get">
+		<fieldset style = "width:150px">
+			<legend> 언어 선택</legend> <p></p>
+				<select name = "language">
+					<option value = "choice">=== 선택 === </option>
+					<option value = "korean"></option>
+					<option value = "english"></option>
+					<option value = "chinese"></option>
+					<option value = "japanese"></option>
+					<option value = "spanish"></option>					
+				</select>	
+		</fieldset>
+	</form>
+	
+</body>
+</html>

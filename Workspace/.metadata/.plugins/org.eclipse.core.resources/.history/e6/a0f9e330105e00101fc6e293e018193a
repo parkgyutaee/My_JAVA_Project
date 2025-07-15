@@ -1,0 +1,23 @@
+<%@ page import = "java.sql.*"  %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%!
+ 	Connection connection = null;
+ 	Statement statement = null;
+ 	ResultSet resultSet = null;
+ 	
+ 	final String URL = "jdbc:oracle:thin:@192.168.0.2:1521:XE";
+ 	final String ID = "c##park";
+ 	final String PASSWORD = "park";
+ 	final String SELECT_SQL = "SELECT * FROM PRODUCT";
+ %>
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
